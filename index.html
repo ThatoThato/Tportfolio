@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TNotion</title>
+
+    <link rel="icon" type="image/x-icon" href="./images/favicon.ico">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="./master.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="container">
+            <div class="navbar">
+                <a href="/" class="logo">
+                    <img src="/images/logo.svg" alt="notNotion">
+                    <span>Thato Website</span>
+                </a>
+                <nav>
+                    <ul class="nav-items">
+                        <li>
+                            <a href="/quiz">Quiz</a>
+                        </li>
+                        <li>
+                            <a href="/todo-list">Todo List</a>
+                        </li>
+                        <li>
+                            <a href="/progress-board">Progress Board</a>
+                        </li>
+                        <li>
+                            <a href="/budget-manager">Budget Manager</a>
+                        </li>
+                        
+                    </ul>
+                </nav>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <section class="homepage">
+                <div class="text-wrap">
+                    <h1 class="title">My Personal Website</h1>
+                    <h2> the projects I have done so far, click on them to see a demo.</h2>
+                    <ol>
+                        <li><a href="https://kanbantype.netlify.app">1. A js kanban(progress board) type app</a></li>
+                        <li><a href="https://taskmanagerthaato.netlify.app">2. A js task-manager application</a></li>
+                        <li><a href="https://tbookmark-tracker.netlify.app">3. A js book-marker app</a></li>
+                        <li><a href="https://thatobudget.netlify.app">4. A js budget-tracker app</a></li>
+                        <li><a href="https://quizthato.netlify.app">5. A js Quiz app</a></li>
+                    </ol>
+                    <h3> you can take a quick peek at the projects in the images below.</h3>
+                    
+                </div>
+                <div class="visual-wrap">
+                    <img src="./images/productive.svg" alt="notNotion">
+                </div>
+            </section>
+
+            <section class="carousel">
+                <!-- Swiper -->
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="./images/budget-manager.png" alt="">
+                        <p>Budget Manager</p>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./images/kanban.png" alt="">
+                        <p>Progress Board(Kanban)</p>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./images/todo-list.png" alt="">
+                        <p>Task Manager</p>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./images/quiz.png" alt="">
+                        <p>Quiz</p>
+                    </div>
+                    </div>
+                    
+                    <!-- <div class="swiper-pagination"></div> -->
+                </div>
+                <div class="swiper-button-wrapper">
+                    <div class="swiper-prev">
+                        <i class="bi bi-arrow-left"></i>
+                    </div>
+                    <div class="swiper-next">
+                        <i class="bi bi-arrow-right"></i>
+                    </div>
+                </div>
+            </section>
+
+          
+            <section class="tagline">
+                <img src="./images/logo.svg" alt="notNotion">
+                <p class="main"> personal website!</p>
+                <p class="sub">My Projects.</p>
+                
+            </section>
+
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer">
+                <div class="brand-name">
+                    <span>© portfolio by Thato</span>
+                </div>
+                <div class="social-icons">
+                    <i class="bi bi-twitter social"></i>
+                    <i class="bi bi-linkedin social"></i>
+                    <i class="bi bi-youtube social"></i>
+                    <i class="bi bi-instagram social"></i>
+                </div>
+            </div>
+        </div>
+        <section class="modal">
+            <div class="newsletter-modal">
+                <p>Join Newsletter Now!</p>
+                <form>
+                    <input type="text" name="name" placeholder="Name" autocomplete="off">
+                    <input type="email" name="email" placeholder="Email" autocomplete="off">
+                    <input type="submit" value="Submit">
+                </form>
+                <i class="bi bi-x-lg close"></i>
+            </div>
+        </section>
+    </footer>    
+
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="./main.js"></script>
+</body>
+</html>
